@@ -30,6 +30,11 @@ class Ui_Form(object):
 
         self.verticalLayout.addWidget(self.listWidget)
 
+        self.ipTextInput = QLineEdit(Form)
+        self.ipTextInput.setObjectName(u"ipTextInput")
+
+        self.verticalLayout.addWidget(self.ipTextInput)
+
         self.horizontalLayout = QHBoxLayout()
         self.horizontalLayout.setObjectName(u"horizontalLayout")
         self.pushButton = QPushButton(Form)
